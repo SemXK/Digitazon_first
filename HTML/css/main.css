@@ -1,0 +1,49 @@
+/*              INFO GENERALI                   */
+
+body {
+    font-family: Corbel, Arial, Helvetica;
+    margin:0;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+/*                 HEADER                      */
+#header {
+    background-color: #6ab47a;
+    text-align: center;
+}
+
+h1, h2{
+    color: white;
+    margin:0;
+}
+
+#nav{
+    background-color: #599a68;
+    padding: 6px 0;
+}
+#nav li {
+    list-style-type: none;
+    display: inline;
+    padding:6px 8px ;
+}
+#nav li a {
+    color: white;
+    
+}
+#nav li:hover{
+    background: #6ab47a;
+}
+
+
+/*                CONTENT                      */
+#content{
+    width: 600px;
+    margin: auto;
+}
+
+#content h4 {
+    border-bottom: #6ab47a solid 3px;
+}
